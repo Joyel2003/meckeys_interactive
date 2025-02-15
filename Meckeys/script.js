@@ -32,9 +32,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                     <div class="product_content">
                         <div class="product_name">${product.name}</div>
+                        <div class="rating">${product.rating}</diV>
                         <div class="product_price">
-                            <div class="old_price">${product.price}</div>
-                            <div class="new_price">${product.price}</div>
+                            <div class="old_price">₹${product.range.min}</div>
+                            <div class="new_price">- ₹${product.range.max}</div>
                         </div>
                     </div>
                 </div>

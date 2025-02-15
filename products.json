@@ -1,44 +1,147 @@
 [
     {
         "name": "EPOMAKER X AULA F75",
-        "price": "₹5,500.00 - ₹6,400.00",
+        "range": {
+            "min": 4000.00,
+            "max": 5000.00
+        },
+        "rating":"★★★★★",
          "img": "https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/Product-image-removebg-preview-300x200.png"
-    },
-    {
-        "name":"Aula F75 Wireless",
-        "price":"₹5,500.00 - ₹6,400.00",
-         "img": "https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/Product-image-removebg-preview-300x200.png"
-    },
-    {
-        "name": "Keychron V1 MAX",
-        "price": "₹15,000.00",
-        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/KEYCHRON-V1-MAX-D-1-600x400.webp"
-
-    },
-    {
-        "name":"VGN N75 PRO",
-        "price": "₹8,000.00",
-        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/d04982eedf20a162b81b29dba33d9896-orage-300x200.webp"
-    },
-    {
-        "name": "VGN VXE75 V2",
-        "price":"₹8,300.00 - ₹10,300.00",
-        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/20241024-160718-description-300x200.webp"
     },
     {
         "name":"Aula F87 Pro Wireless",
-        "price":"₹5,000.00 - ₹6,400.00",
-        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/Aula-f87-pro-white-green-7-600x400.jpg"
+        "range":{
+            "min":5000,
+            "max":6400
+        },
+        "rating":"★★★★☆",    
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/Product-image-removebg-preview-300x200.png"
+    },
+    {
+        "name":"Royal Kludge RK M75",
+        "range":{
+            "min":6999
+        },
+        "rating":"★★★★★",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/02/RKM75-1-300x200.webp"
+    },
+    {
+        "name": "Aula F87 Pro Wireless",
+        "range":{
+            "min":5000,
+            "max":6400
+        },
+        "rating":"★★★★★",
+        "img": "https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/Aula-f87-pro-white-green-7-300x200.jpg"
+    },
+    {
+        "name":"Keychron Q1 V2",
+        "range":{
+            "min":14000
+        },
+        "rating":"★★★★★",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/2021818-9359-1-300x200.webp"
+    },
+    {
+        "name": "Royal Kludge RK M75 phantom",
+        "range":{
+            "min":6999
+        },
+        "rating":"★★★★☆",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/05/m75-charcoal-1-1-300x200.webp"
+    },
+    {
+        "name":"VGN N75 PRO",
+        "range":{
+            "min":5100
+        },
+        "rating":"★★★☆☆",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/d04982eedf20a162b81b29dba33d9896-orage-300x200.webp"
+    },
+    {
+        "name":"Aula M75 Aluminum Gasket Wireless",
+        "range":{
+            "min":8999,
+            "max":9999
+        },
+        "rating":"★★★★☆",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2025/01/10-300x200.webp"
+    },
+    {
+        "name":"Keychron V1 MAX",
+        "range":{
+            "min":8999
+        },
+        "rating":"★★★★☆",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/Product-image-removebg-preview-300x200.png"
+    },
+    {
+        "name":"VGN VXE75 V2",
+        "range":{
+            "min":8300,
+            "max":10300
+        },
+        "rating":"★★★★★",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/20241024-160718-description-300x200.webp"
     },
     {
         "name":"Royal Kludge RK84 V2 Wireless",
-        "price":"₹9,300.00",
-        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/80percentkeyboards_1024x10242x-930x620.webp"
+        "range":{
+            "min":5449
+        },
+        "rating":"★★★★☆",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/80percentkeyboards_1024x10242x-300x200.webp"
     },
     {
-        "name": "Royal Kludge RK M75",
-        "price":"₹11,000.00", 
-        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/02/RKM75-1-930x620.webp"
+        "name":"Royal Kludge RK M75 TARO MILK",
+        "range":{
+            "min":6999
+        },
+        "rating":"★★★★☆",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/m75-taro-milk-6-300x200.jpg"
+    },
+    {
+        "name":"Royal Kludge RK R75",
+        "range":{
+            "min":4699
+        },
+        "rating":"★★★☆☆",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/07/RK-R75-Skycyan-1-300x200.webp"
+    },
+    {
+        "name":"Royal Kludge RK H81",
+        "range":{
+            "min":6419
+        },
+        "rating":"★★★★☆",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/02/RKH81-1-300x200.webp"
+    },
+    {
+        "name":"Royal Kludge RK N80 Low Profile",
+        "range":{
+            "min":7899
+        },
+        "rating":"★★★★☆",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/07/RK-N80-Rosy-Clouds1-300x200.webp"
+    },
+    {
+        "name":"Keychron V1",
+        "range":{
+            "min":5999,
+            "max":8999
+        },
+        "rating":"★★★☆☆",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/WechatIMG3814-min-scaled-300x200.webp"
+    },
+    {
+        "name":"ATK RS7",
+        "range":{
+            "min":12999,
+            "max":15250
+        },
+        "rating":"★★★★★",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/266f5157cf5d8c6312db71f78784ce0a-PRODUCT-IMAGE-300x200.webp"
     }
+   
    
 ]

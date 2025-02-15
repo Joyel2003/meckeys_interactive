@@ -206,8 +206,12 @@ select {
     font-family: mec-bold;
     font-weight: 700;
     font-size: 15px;
-    height: 25.5px;
+    /* height: 25.5px; */
     text-transform: capitalize;
+    text-align: center;
+}
+.rating{
+    color: gold;
 }
 
 .product_price {
@@ -217,7 +221,7 @@ select {
 
 .old_price {
     font-size: 12px;
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
     color: #666666;
     font-family: mec-reg;
     font-weight: 400;
@@ -225,7 +229,7 @@ select {
 
 .new_price {
     font-size: 12px;
-    color: black;
+    color: #666666;
     font-family: mec-reg;
     font-weight: 400;
 }
