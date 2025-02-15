@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('../products.json') // Ensure the correct filename
+    fetch('../products.json') 
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
             }
             return response.json();
         })
-        .then(products => {
+        .then(products => { 
             let productContainer = document.querySelector(".products");
-            productContainer.innerHTML = ""; // Clear any existing content
+            productContainer.innerHTML = ""; 
 
             products.forEach(product => {
                 let productDiv = document.createElement("div");
