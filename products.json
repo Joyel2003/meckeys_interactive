@@ -21,9 +21,8 @@
     },
     {
         "name":"Royal Kludge RK M75",
-        "range":{
-            "min":6999
-        },
+        "mrp": 7500,
+        "price": 6999,
         "rating":"★★★★★",
         "date":"25/12/2024",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/02/RKM75-1-300x200.webp"
@@ -40,27 +39,24 @@
     },
     {
         "name":"Keychron Q1 V2",
-        "range":{
-            "min":14000
-        },
+        "mrp": 7500,
+        "price": 6999,
         "rating":"★★★★★",
         "date":"24/12/2023",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/2021818-9359-1-300x200.webp"
     },
     {
         "name": "Royal Kludge RK M75 phantom",
-        "range":{
-            "min":6999
-        },
+        "mrp": 7500,
+        "price": 6999,
         "date":"22/05/2024",
         "rating":"★★★★☆",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/05/m75-charcoal-1-1-300x200.webp"
     },
     {
         "name":"VGN N75 PRO",
-        "range":{
-            "min":5100
-        },
+        "mrp": 7500,
+        "price": 6999,
         "date":"09/04/2024",
         "rating":"★★★☆☆",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/d04982eedf20a162b81b29dba33d9896-orage-300x200.webp"
@@ -77,9 +73,8 @@
     },
     {
         "name":"Keychron V1 MAX",
-        "range":{
-            "min":8999
-        },
+        "mrp": 7500,
+        "price": 6999,
         "date":"31/08/2023",
         "rating":"★★★★☆",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/Product-image-removebg-preview-300x200.png"
@@ -96,45 +91,40 @@
     },
     {
         "name":"Royal Kludge RK84 V2 Wireless",
-        "range":{
-            "min":5449
-        },
+        "mrp": 7500,
+        "price": 6999,
         "date":"31/09/2024",
         "rating":"★★★★☆",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/80percentkeyboards_1024x10242x-300x200.webp"
     },
     {
         "name":"Royal Kludge RK M75 TARO MILK",
-        "range":{
-            "min":6999
-        },
+        "mrp": 7500,
+        "price": 6999,
         "date":"25/09/2021",
         "rating":"★★★★☆",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/m75-taro-milk-6-300x200.jpg"
     },
     {
         "name":"Royal Kludge RK R75",
-        "range":{
-            "min":4699
-        },
+        "mrp": 7500,
+        "price": 6999,
         "date":"06/04/2021",
         "rating":"★★★☆☆",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/07/RK-R75-Skycyan-1-300x200.webp"
     },
     {
         "name":"Royal Kludge RK H81",
-        "range":{
-            "min":6419
-        },
+        "mrp": 7500,
+        "price": 6999,
         "date":"26/10/2014",
         "rating":"★★★★☆",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/02/RKH81-1-300x200.webp"
     },
     {
         "name":"Royal Kludge RK N80 Low Profile",
-        "range":{
-            "min":7899
-        },
+        "mrp": 7500,
+        "price": 6999,
         "date":"03/03/2023",
         "rating":"★★★★☆",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/07/RK-N80-Rosy-Clouds1-300x200.webp"
@@ -158,7 +148,30 @@
         "date":"27/05/2013",
         "rating":"★★★★★",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/266f5157cf5d8c6312db71f78784ce0a-PRODUCT-IMAGE-300x200.webp"
+    }, 
+    {
+        "name": "Hello Ganss GS 87C-HT",
+        "rating":"★★★★☆",
+        "date": "25/12/2022",
+        "mrp":"9999",
+        "price":"7999",
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2022/01/GS-87C-HT-White-Peach-5-930x620.webp"
+    },
+    {
+        "name":"Duck One 3 TKL Classic Black RGB",
+        "rating":"★★★☆☆",
+        "date":"01/01/2023",
+        "mrp":12999,
+        "price":9099,
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2022/12/Ducky-One-3-TKL-Classic-Black-RGB-1-300x200.webp"
+    },
+    {
+        "name":"Ducky One 3 SF Pure White RGB",
+        "rating":"★★★★☆",
+        "date": "31/08/2022",
+        "mrp":11699,
+        "price":8189,
+        "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2022/12/Ducky-One-3-SF-Pure-White-RGB-6-930x620.webp"
     }
-   
-   
+    
 ]

@@ -80,10 +80,22 @@
             <div class="fiter_big">
                 <main>
                     <aside class="sidebar">
-                        <div class="price_fltr">
-                        <h2>Filter by price</h2>
-                        <input type="range" min="10" max="100" step="1">
-                        </div>
+                        <h2>Filter by Price</h2>
+                        <div class="range">
+                            <div class="range-slider">
+                              <span class="range-selected"></span>
+                            </div>
+                            <div class="range-input">
+                              <input type="range" class="min" min="0" max="20000" value="300" step="10" />
+                              <input type="range" class="max" min="0" max="20000" value="700" step="10" />
+                            </div>
+                            <div class="range-price">
+                              <label for="min"></label>
+                              <input type="number" name="min" value="300" />
+                              <label for="max"></label>
+                              <input type="number" name="max" value="700" />
+                            </div>
+                          </div>
                         <div class="stoke_fltr">
                         <h2>Filter by stock status</h2>
                         <div class="stock_box">
@@ -126,12 +138,12 @@
                         </svg>
                     </div>
                     <div class="sort">
-                        <select name="" id="">
-                            <option value="">Sort by popularity</option>
-                            <option value="">Sort by average rating</option>
-                            <option value="">Sort by latest</option>
-                            <option value="">Sort by price:Low to High</option>
-                            <option value="">Sort by price:High to Low</option>
+                        <select name="" id="filter-select">
+                            <option value="popularity">Sort by popularity</option>
+                            <option value="rating">Sort by average rating</option>
+                            <option value="latest">Sort by latest</option>
+                            <option value="low-to-high">Sort by price:Low to High</option>
+                            <option value="high-to-low">Sort by price:High to Low</option>
                         </select>
                     </div>
                 </div>
