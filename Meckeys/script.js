@@ -1,4 +1,5 @@
 const filterSelect = document.getElementById('filter-select');
+let ratingFilters = [];
 
 function parseDate(dateStr) {
   const [day, month, year] = dateStr.split('/');
@@ -18,6 +19,7 @@ function loadData() {
       // Filter Data based on select-filter
       switch (filterSelect.value) {
         case "rating":
+          products = products.sort((a, b) => b.star - a.star)
           break;
         case "latest":
           products = products.sort((a, b) => {
@@ -46,6 +48,11 @@ function loadData() {
             products = products;
             break;
       }
+
+      if(ratingFilters.length > 0) {
+        products = products.filter(product => ratingFilters.includes(product.star + ""));
+      }
+
       let productContainer = document.querySelector(".products");
       productContainer.innerHTML = "";
 
@@ -137,3 +144,15 @@ rangePrice.forEach((input) => {
 
 // Filter Selection
 filterSelect.onchange = loadData;
+
+document.querySelectorAll(".filter-check").forEach((el) => {
+  el.addEventListener("change", (e) => {
+    const filterValue = e.target.value;
+    if (e.target.checked) {
+      ratingFilters.push(filterValue);
+    } else {
+      ratingFilters = ratingFilters.filter((filter) => filter!== filterValue);
+    }
+    loadData()
+  })
+})

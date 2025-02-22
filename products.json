@@ -6,6 +6,7 @@
             "max": 5000.00
         },
         "rating":"★★★★★",
+        "star": 5,
         "date": "01/01/2025",
          "img": "https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/Product-image-removebg-preview-300x200.png"
     },
@@ -15,7 +16,8 @@
             "min":5000,
             "max":6400
         },
-        "rating":"★★★★☆",    
+        "rating":"★★★★☆",   
+        "star": 4, 
         "date":"05/02/2025",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/Product-image-removebg-preview-300x200.png"
     },
@@ -24,6 +26,7 @@
         "mrp": 7500,
         "price": 6999,
         "rating":"★★★★★",
+        "star": 4,
         "date":"25/12/2024",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/02/RKM75-1-300x200.webp"
     },
@@ -34,6 +37,7 @@
             "max":6400
         },
         "rating":"★★★★★",
+        "star": 5,
         "date":"01/11/2024",
         "img": "https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/Aula-f87-pro-white-green-7-300x200.jpg"
     },
@@ -42,6 +46,7 @@
         "mrp": 7500,
         "price": 6999,
         "rating":"★★★★★",
+        "star": 4,
         "date":"24/12/2023",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/2021818-9359-1-300x200.webp"
     },
@@ -51,6 +56,7 @@
         "price": 6999,
         "date":"22/05/2024",
         "rating":"★★★★☆",
+        "star": "4",
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/05/m75-charcoal-1-1-300x200.webp"
     },
     {
@@ -59,6 +65,7 @@
         "price": 6999,
         "date":"09/04/2024",
         "rating":"★★★☆☆",
+        "start": 3,
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/d04982eedf20a162b81b29dba33d9896-orage-300x200.webp"
     },
     {
@@ -69,6 +76,7 @@
         },
         "date":"09/03/2023",
         "rating":"★★★★☆",
+        "star": 4,
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2025/01/10-300x200.webp"
     },
     {
@@ -77,6 +85,7 @@
         "price": 6999,
         "date":"31/08/2023",
         "rating":"★★★★☆",
+        "star": 4,
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/Product-image-removebg-preview-300x200.png"
     },
     {
@@ -87,6 +96,7 @@
         },
         "date":"28/07/2022",
         "rating":"★★★★★",
+        "star": 5,
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/20241024-160718-description-300x200.webp"
     },
     {
@@ -95,6 +105,7 @@
         "price": 6999,
         "date":"31/09/2024",
         "rating":"★★★★☆",
+        "star": 4,
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/80percentkeyboards_1024x10242x-300x200.webp"
     },
     {
@@ -103,6 +114,7 @@
         "price": 6999,
         "date":"25/09/2021",
         "rating":"★★★★☆",
+        "star": 4, 
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/m75-taro-milk-6-300x200.jpg"
     },
     {
@@ -111,6 +123,7 @@
         "price": 6999,
         "date":"06/04/2021",
         "rating":"★★★☆☆",
+        "star": 3,
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/07/RK-R75-Skycyan-1-300x200.webp"
     },
     {
@@ -119,6 +132,7 @@
         "price": 6999,
         "date":"26/10/2014",
         "rating":"★★★★☆",
+        "star": 4,
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/02/RKH81-1-300x200.webp"
     },
     {
@@ -127,6 +141,7 @@
         "price": 6999,
         "date":"03/03/2023",
         "rating":"★★★★☆",
+        "star": 4,
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/07/RK-N80-Rosy-Clouds1-300x200.webp"
     },
     {
@@ -137,6 +152,7 @@
         },
         "date":"04/03/2024",
         "rating":"★★★☆☆",
+        "star": 3,
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/WechatIMG3814-min-scaled-300x200.webp"
     },
     {
@@ -147,6 +163,7 @@
         },
         "date":"27/05/2013",
         "rating":"★★★★★",
+        "star": 5,
         "img":"https://mks.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/266f5157cf5d8c6312db71f78784ce0a-PRODUCT-IMAGE-300x200.webp"
     }, 
     {
@@ -160,6 +177,7 @@
     {
         "name":"Duck One 3 TKL Classic Black RGB",
         "rating":"★★★☆☆",
+        "star": 3,
         "date":"01/01/2023",
         "mrp":12999,
         "price":9099,
@@ -168,6 +186,7 @@
     {
         "name":"Ducky One 3 SF Pure White RGB",
         "rating":"★★★★☆",
+        "star": 4,
         "date": "31/08/2022",
         "mrp":11699,
         "price":8189,
