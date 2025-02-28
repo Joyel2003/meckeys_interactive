@@ -1,6 +1,14 @@
 const filterSelect = document.getElementById('filter-select');
 let ratingFilters = [];
 
+// Slider functions
+const minLimit = document.getElementById("min-limit");
+const maxLimit = document.getElementById("max-limit");
+
+function onChangeSlider() {
+  loadData();
+}
+
 function parseDate(dateStr) {
   const [day, month, year] = dateStr.split('/');
   return new Date(year, month - 1, day); // Month is 0-indexed in JavaScript Date
@@ -52,6 +60,13 @@ function loadData() {
       if(ratingFilters.length > 0) {
         products = products.filter(product => ratingFilters.includes(product.star + ""));
       }
+
+      console.log(maxLimit.value)
+
+      products = products.filter(product => {
+        if(product.price) return product.price > minLimit.value && product.price < maxLimit.value;
+        else return product.range.min > minLimit.value && product.range.max < maxLimit.value;
+      })
 
       let productContainer = document.querySelector(".products");
       productContainer.innerHTML = "";
