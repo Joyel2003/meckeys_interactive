@@ -408,7 +408,7 @@ footer {
     margin-right: 5px;
   }
   .range-price input {
-    width: 45px;
+    width: 55px;
     padding: 5px;
     
   }
@@ -638,4 +638,8 @@ input[type=range]::-webkit-slider-thumb {
     .header_nav_list{
         justify-content: flex-end;
     }
+}
+
+.line-through {
+    text-decoration: line-through;
 }

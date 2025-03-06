@@ -47,9 +47,9 @@ function loadData() {
         case "high-to-low":
           products = products.sort((a, b) => {
             if (a.price && b.price) return b.price - a.price;
-            if (a.price && !b.price) return b.range.min - a.price;
-            if (!a.price && b.price) return b.price - a.range.min;
-            return b.range.min - a.range.min;
+            if (a.price && !b.price) return b.range.max - a.price;
+            if (!a.price && b.price) return b.price - a.range.max;
+            return b.range.max - a.range.max;
           });
           break;
           default:
@@ -97,7 +97,7 @@ function loadData() {
                       <div class="product_price">
                       ${product.mrp ?
             `
-                          <div class="old_price">₹${product.mrp}</div>
+                          <div class="old_price line-through">₹${product.mrp}</div>
                           <div class="new_price">₹${product.price}</div>
                           ` :
             `
@@ -171,3 +171,4 @@ document.querySelectorAll(".filter-check").forEach((el) => {
     loadData()
   })
 })
+
