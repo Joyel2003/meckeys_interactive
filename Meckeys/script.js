@@ -71,6 +71,11 @@ function loadData() {
       let productContainer = document.querySelector(".products");
       productContainer.innerHTML = "";
 
+      if(products.length <= 0) {
+        productContainer.innerHTML = "<h2 class='empty-message'>No products found that match your criteria.</h2>";
+        return;
+      }
+
       products.forEach(product => {
         let productDiv = document.createElement("div");
         productDiv.classList.add("product");
@@ -171,4 +176,3 @@ document.querySelectorAll(".filter-check").forEach((el) => {
     loadData()
   })
 })
-

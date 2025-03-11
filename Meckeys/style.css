@@ -643,3 +643,7 @@ input[type=range]::-webkit-slider-thumb {
 .line-through {
     text-decoration: line-through;
 }
+
+.empty-message {
+    white-space: nowrap;
+}
